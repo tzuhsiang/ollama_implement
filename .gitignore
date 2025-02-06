@@ -9,3 +9,12 @@ node_modules/
 *.pyc
 *.pyo
 __pycache__/
+
+
+# 忽略 data 目錄內的所有檔案
+data/*
+
+# 但保留 data 目錄本身
+!.gitignore
+!data/
+!data/.gitkeep
